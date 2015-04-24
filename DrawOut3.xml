@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="442" y="308">
+  <block type="oled_cleardisplay" id="9" x="432" y="277">
     <next>
       <block type="oled_setcursor" id="18" inline="true">
         <value name="STARTX">
@@ -82,8 +82,41 @@
                                       <block type="oled_linerect" id="131">
                                         <field name="OBJECT">LINE</field>
                                         <next>
-                                          <block type="oled_color" id="140">
-                                            <field name="OBJECT">GREEN</field>
+                                          <block type="oled_setcursor" id="153" inline="true">
+                                            <value name="STARTX">
+                                              <block type="math_number" id="193">
+                                                <field name="NUM">30</field>
+                                              </block>
+                                            </value>
+                                            <value name="STARTY">
+                                              <block type="math_number" id="194">
+                                                <field name="NUM">30</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_setend" id="162" inline="true">
+                                                <value name="ENDX">
+                                                  <block type="math_number" id="195">
+                                                    <field name="NUM">100</field>
+                                                  </block>
+                                                </value>
+                                                <value name="ENDY">
+                                                  <block type="math_number" id="196">
+                                                    <field name="NUM">100</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="oled_linerect" id="171">
+                                                    <field name="OBJECT">LINE</field>
+                                                    <next>
+                                                      <block type="oled_color" id="180">
+                                                        <field name="OBJECT">GREEN</field>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
