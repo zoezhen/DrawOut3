@@ -3,25 +3,25 @@
     <next>
       <block type="oled_setcursor" id="18" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="25">
-            <field name="NUM">0</field>
+          <block type="math_number" id="142">
+            <field name="NUM">10</field>
           </block>
         </value>
         <value name="STARTY">
           <block type="math_number" id="26">
-            <field name="NUM">0</field>
+            <field name="NUM">10</field>
           </block>
         </value>
         <next>
           <block type="oled_setend" id="73" inline="true">
             <value name="ENDX">
               <block type="math_number" id="32">
-                <field name="NUM">0</field>
+                <field name="NUM">20</field>
               </block>
             </value>
             <value name="ENDY">
               <block type="math_number" id="33">
-                <field name="NUM">0</field>
+                <field name="NUM">60</field>
               </block>
             </value>
             <next>
@@ -31,24 +31,24 @@
                   <block type="oled_setcursor" id="40" inline="true">
                     <value name="STARTX">
                       <block type="math_number" id="41">
-                        <field name="NUM">0</field>
+                        <field name="NUM">20</field>
                       </block>
                     </value>
                     <value name="STARTY">
                       <block type="math_number" id="42">
-                        <field name="NUM">0</field>
+                        <field name="NUM">60</field>
                       </block>
                     </value>
                     <next>
                       <block type="oled_setend" id="86" inline="true">
                         <value name="ENDX">
                           <block type="math_number" id="87">
-                            <field name="NUM">0</field>
+                            <field name="NUM">100</field>
                           </block>
                         </value>
                         <value name="ENDY">
                           <block type="math_number" id="88">
-                            <field name="NUM">0</field>
+                            <field name="NUM">30</field>
                           </block>
                         </value>
                         <next>
@@ -57,25 +57,25 @@
                             <next>
                               <block type="oled_setcursor" id="37" inline="true">
                                 <value name="STARTX">
-                                  <block type="math_number" id="38">
-                                    <field name="NUM">0</field>
+                                  <block type="math_number" id="144">
+                                    <field name="NUM">100</field>
                                   </block>
                                 </value>
                                 <value name="STARTY">
                                   <block type="math_number" id="39">
-                                    <field name="NUM">0</field>
+                                    <field name="NUM">30</field>
                                   </block>
                                 </value>
                                 <next>
                                   <block type="oled_setend" id="89" inline="true">
                                     <value name="ENDX">
                                       <block type="math_number" id="90">
-                                        <field name="NUM">0</field>
+                                        <field name="NUM">10</field>
                                       </block>
                                     </value>
                                     <value name="ENDY">
                                       <block type="math_number" id="91">
-                                        <field name="NUM">0</field>
+                                        <field name="NUM">10</field>
                                       </block>
                                     </value>
                                     <next>
