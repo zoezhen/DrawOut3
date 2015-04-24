@@ -83,7 +83,7 @@
                                         <field name="OBJECT">LINE</field>
                                         <next>
                                           <block type="oled_color" id="140">
-                                            <field name="OBJECT">BLACK</field>
+                                            <field name="OBJECT">GREEN</field>
                                           </block>
                                         </next>
                                       </block>
